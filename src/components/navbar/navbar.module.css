@@ -15,9 +15,18 @@
 }
 
 .logo img {
+    position: absolute;
+    top: 36px;
     margin-left: 20px;
     height: 50px;
     width: auto;
+}
+
+.logotext {
+    font-family: Inter;
+    position: absolute;
+    left: 110px;
+    font-size:25px;
 }
 
 .links{

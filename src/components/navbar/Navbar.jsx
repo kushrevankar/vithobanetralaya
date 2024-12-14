@@ -9,6 +9,7 @@ const Navbar = () => {
       <div className={styles.logo}>
         <img src={Logo} alt="Logo"/>
       </div>
+      <div className={styles.logotext}>Vithoba Netralaya</div>
       <div className={styles.links}>
         <Link to="/about" className={styles.link}>About</Link>
         <Link to="/doctors" className={styles.link}>Doctors</Link>
