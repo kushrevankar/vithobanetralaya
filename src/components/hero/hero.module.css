@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: royalblue;
+    color: white;
+    height: 80vh;
+}
+
+.image img{
+    border-radius: 50%;
+    height: 400px;
+    padding: 50px;
+}   
+
+.heading {
+    padding: 50px;
+}
+
+.title {
+    font-size: 42px;
+    font-family: Inter;
+}
+
+.details {
+    font-size: 32px;
+    font-family: Inter;
+}
