@@ -3,14 +3,14 @@
     height: 70vh;
     align-items: center;
     padding: 2rem;
-    background-color: royalblue;
+    background-color: #eaf3fe;
 }
 
 .heading {
     flex-direction: column;
     font-size: 3rem;
     font-family: Inter;
-    color: white;
+    color: black;
     padding-left: 270px;
 }
 
@@ -22,7 +22,8 @@
     text-align: center;
     border: none;
     font-size: 1.5rem;
-    color: royalblue;
+    background-color: royalblue;
+    color: #eaf3fe;
     margin-left: 100px;
     cursor: pointer;
 }

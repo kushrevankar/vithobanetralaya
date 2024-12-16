@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: #98FF98;
+    background-color: #82c8e5;
     height: 45vh;
 }
 
@@ -51,7 +51,7 @@
     width: 160px;
     font-size: 1rem;
     color: black;
-    background-color: #98FF98;
+    background-color: #82c8e5;
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
