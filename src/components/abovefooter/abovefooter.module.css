@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    padding: 2rem;
+    background-color: royalblue;
+}
+
+.heading {
+    flex-direction: column;
+    font-size: 3rem;
+    font-family: Inter;
+    color: white;
+    padding-left: 270px;
+}
+
+.button {
+    height: 80px;
+    width: 400px;
+    border-radius: 40px;
+    font-family: Inter;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    color: royalblue;
+    margin-left: 100px;
+    cursor: pointer;
+}

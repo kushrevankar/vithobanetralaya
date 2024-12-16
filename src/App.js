@@ -4,6 +4,8 @@ import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero'
 import Herobel from './components/herobel/Herobel';
 import Timings from './components/timings/Timings';
+import Diseases from './components/diseases/Diseases';
+import Abovefooter from './components/abovefooter/Abovefooter';
 import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
         <Hero />
         <Herobel />
         <Timings />
+        <Diseases />
+        <Abovefooter />
       </div>
     </BrowserRouter>
   );
