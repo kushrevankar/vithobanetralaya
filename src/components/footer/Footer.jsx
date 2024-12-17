@@ -36,7 +36,7 @@ const Footer = () => {
           <h3>Emergency</h3>
           <p>24/7 Emergency Services Available</p>
           <div className={styles.hotline}>
-            Emergency Hotline: (555) 911-2345
+            Emergency Hotline: To be filled
           </div>
         </div>
       </div>
