@@ -44,3 +44,20 @@
     text-decoration: none;
     font-family: Inter, sans-serif;
 }
+
+.button {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.link.cta {
+    color: white;
+    background-color: royalblue;
+    border: none;
+    font-size: 15px;
+    border-radius: 22.5px;
+    height: 45px;
+    width: 180px;
+    font-family: Inter, sans-serif;
+}

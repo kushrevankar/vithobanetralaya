@@ -7,21 +7,39 @@ import Timings from './components/timings/Timings';
 import Diseases from './components/diseases/Diseases';
 import Abovefooter from './components/abovefooter/Abovefooter';
 import Footer from './components/footer/Footer'
-import { BrowserRouter } from 'react-router-dom';
+import About from './components/about/About';
+import Treatments from './components/treatments/Treatments'
+import Doctors from './components/doctors/Doctors'
+import Facilities from './components/facilities/Facilities'
+import Trust from './components/trust/Trust'
+import Contact from './components/contact/Contact'
+import Appointment from './components/appointment/Appointment'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div>
-        <Navbar />
-        <Hero />
-        <Herobel />
-        <Timings />
-        <Diseases />
-        <Abovefooter />
-        <Footer />
-      </div>
-    </BrowserRouter>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Hero />
+            <Herobel />
+            <Timings />
+            <Diseases />
+            <Abovefooter />
+          </>
+        } />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/doctors" element={<Doctors />} />
+        <Route path="/treatments" element={<Treatments />} />
+        <Route path="/facilities" element={<Facilities />} />
+        <Route path="/trust" element={<Trust />} />
+        <Route path="/appointment" element={<Appointment />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 };
 
