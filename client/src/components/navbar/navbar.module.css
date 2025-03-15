@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
     background-color: white;
 }
 
@@ -16,7 +16,7 @@
 
 .logo img {
     position: absolute;
-    top: 36px;
+    top: 25px;
     margin-left: 20px;
     height: 50px;
     width: auto;
@@ -33,7 +33,7 @@
     display: flex;
     gap: 20px;
     flex: 1;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     justify-content: flex-end;
     margin-right: 20px;
@@ -53,7 +53,7 @@
 
 .link.cta {
     color: white;
-    background-color: royalblue;
+    background-color: #005bd3;
     border: none;
     font-size: 15px;
     border-radius: 22.5px;

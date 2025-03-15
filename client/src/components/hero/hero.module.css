@@ -1,14 +1,25 @@
+.background {
+    background: linear-gradient(135deg, #004aad 30%, #5089c6 100%);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: royalblue;
+    background-color: linear-gradient(135deg, #004aad 30%, #5089c6 100%);
     color: white;
-    height: 85vh;
+    height: 90vh;
+    transition: opacity 0.5s ease-out;
 }
 
-.image img{
+.image img {
     border-radius: 50%;
     height: 400px;
     padding: 50px;
