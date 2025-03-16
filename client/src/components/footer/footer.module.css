@@ -1,5 +1,5 @@
 .footer {
-   background-color: royalblue;
+   background-color: #004aad;
    color: white;
    padding: 2rem 0;
 }
@@ -73,7 +73,6 @@
 }
   
 .copyright {
-   border-top: 1px solid #2563eb;
    margin-top: 1.5rem;
    padding-top: 1rem;
    text-align: center;

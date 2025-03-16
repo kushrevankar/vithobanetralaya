@@ -3,117 +3,82 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: white;
-    height: 85vh;
+    background-color: #87ceeb;
+    min-height: 70vh;
 }
 
 .heading {
-    position: absolute;
-    top: 2450px;
-    font-family: Inter;
-    font-size: 3.4rem;
-    max-width: 40%;
+    font-family: Inter, sans-serif;
+    font-size: 2.5rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     font-weight: bold;
+    max-width: 80%;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
 }
 
 .general, .surgery, .eyecare {
     flex: 1;
+    min-width: 225px;
+    max-width: 275px;
     border-radius: 20px;
-    padding: 1rem;
-    margin: 0 1rem;
+    padding: 2rem 1.5rem;
     background-color: #eaf3fe;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 380px;
-    width: 200px;
 }
 
-.general img {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 60px;
-    left: 50px;
-}
-
-.surgery img {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 60px;
-    left: 440px;
-}
-
-.eyecare img {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 60px;
-    left: 860px;
-}
-
-
-.generaltitle {
-    font-family: Inter;
+.cardHeader {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    max-width: 140px;
-    margin: 1rem 0;
-    position: absolute;
-    left: 160px;
-    top: 65px;
+    margin-bottom: 2rem;
 }
 
-.surgerytitle {
-    font-family: Inter;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    max-width: 220px;
-    margin: 1rem 0;
-    word-wrap: break-word;
-    position: absolute;
-    left: 550px;
-    top: 65px;
+.cardHeader img {
+    height: 75px;
+    width: 75px;
+    margin-right: 1rem;
 }
 
-.eyecaretitle {
-    font-family: Inter;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.generaltitle, .surgerytitle, .eyecaretitle {
+    font-family: Inter, sans-serif;
     font-size: 1.4rem;
-    max-width: 70%;
-    margin: 1rem 0;
-    word-wrap: break-word;
-    position: absolute;
-    left: 970px;
-    top: 77px;
+    font-weight: 600;
 }
 
 .list {
-    align-items: center;
-    font-family: Inter;
-    font-size: 1.3rem;
-    margin-top: auto;
-    padding-bottom: 20px;
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
 }
 
-.sections {
-    position: absolute;
-    top: 2650px;
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    width: 100%;
-    max-width: 1200px;
+.list ul {
+    padding-left: 1.5rem;
+}
+
+.list li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+    .sections {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .general, .surgery, .eyecare {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 2rem;
+    }
 }

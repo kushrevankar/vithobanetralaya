@@ -23,7 +23,8 @@
 }
 
 .logotext {
-    font-family: Inter;
+    font-family: 'Spectral', sans-serif;
+    letter-spacing: -1px;
     position: absolute;
     left: 110px;
     font-size:25px;

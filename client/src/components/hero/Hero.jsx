@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styles from "./hero.module.css";
-import eyecare from "../../images/eyecare.jpg";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -22,9 +21,6 @@ const Hero = () => {
           opacity: Math.max(0, 1 - scrollY / 400)
         }}
       >
-        <div className={styles.image}>
-          <img src={eyecare} alt="eyecare" />
-        </div>
         <div className={styles.heading}>
           <div className={styles.title}>Get a crystal clear vision.</div>
           <div className={styles.details}>

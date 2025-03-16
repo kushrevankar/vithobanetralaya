@@ -3,7 +3,7 @@
     height: 70vh;
     align-items: center;
     padding: 2rem;
-    background-color: #eaf3fe;
+    background: white;
 }
 
 .heading {
@@ -22,7 +22,7 @@
     text-align: center;
     border: none;
     font-size: 1.5rem;
-    background-color: royalblue;
+    background-color: #004aad;
     color: #eaf3fe;
     margin-left: 100px;
     cursor: pointer;

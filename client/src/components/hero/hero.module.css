@@ -1,21 +1,22 @@
 .background {
-    background: linear-gradient(135deg, #004aad 30%, #5089c6 100%);
-    min-height: 90vh;
+    background-image: url('../../images/herobg.jpg'); /* Ensure the correct path */
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content:left;
     position: relative;
     overflow: hidden;
 }
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     padding: 2rem;
-    background-color: linear-gradient(135deg, #004aad 30%, #5089c6 100%);
     color: white;
-    height: 90vh;
+    height: 80vh;
     transition: opacity 0.5s ease-out;
 }
 
@@ -27,14 +28,18 @@
 
 .heading {
     padding: 50px;
+    text-align: left;
+    color: white;
 }
 
 .title {
-    font-size: 42px;
-    font-family: Inter;
+    font-size: 50px;
+    font-family: 'Spectral', serif;
+    letter-spacing: -1.5px;
 }
 
 .details {
     font-size: 32px;
-    font-family: Inter;
+    font-family: 'Spectral', serif;
+    letter-spacing: -1px;
 }
