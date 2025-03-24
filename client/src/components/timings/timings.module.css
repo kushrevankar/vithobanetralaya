@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-color: #b0e0e6;
-    height: 45vh;
+    background-color: white;
+    height: 30vh;
 }
 
 .heading {
@@ -16,21 +16,23 @@
     font-weight: bold;
     color: black;
     padding: 10px;
+    letter-spacing: -1.5px;
 }
 
 .heading img {
+    margin-bottom: -3px;
     height: 28px;
     width: 28px;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 .desc {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     align-items: center;
     text-align: center;
     flex-direction: column;
     font-family: Inter;
-    color: black;
+    color:#555;
     padding: 10px;
     max-width: 50%;
 }
@@ -40,6 +42,7 @@
     flex-direction: column;
     font-family: Inter;
     padding: 10px;
+    color:#555;
     padding-bottom: 40px;
     font-size: 1.2rem;
 }

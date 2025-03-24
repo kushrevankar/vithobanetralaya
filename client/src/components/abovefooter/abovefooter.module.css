@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    height: 70vh;
+    height: 30vh;
     align-items: center;
     padding: 2rem;
     background: white;
@@ -11,19 +11,22 @@
     font-size: 3rem;
     font-family: Inter;
     color: black;
-    padding-left: 270px;
+    font-weight: bold;
+    padding-left: 300px;
+    padding-right: 85px;
+    letter-spacing: -1.5px;
 }
 
 .button {
-    height: 70px;
-    width: 380px;
+    height: 63px;
+    width: 342px;
     border-radius: 40px;
     font-family: Inter;
     text-align: center;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     background-color: #004aad;
     color: #eaf3fe;
-    margin-left: 100px;
+    margin-left: 60px;
     cursor: pointer;
 }

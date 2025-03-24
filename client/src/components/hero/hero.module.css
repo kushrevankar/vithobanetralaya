@@ -1,8 +1,8 @@
 .background {
-    background-image: url('../../images/herobg.jpg'); /* Ensure the correct path */
+    background-image: url('../../images/herobg.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 55vh;
     display: flex;
     align-items: flex-start;
     justify-content:left;
@@ -14,32 +14,26 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding: 2rem;
     color: white;
-    height: 80vh;
+    height: 60vh;
     transition: opacity 0.5s ease-out;
-}
-
-.image img {
-    border-radius: 50%;
-    height: 400px;
-    padding: 50px;
-}   
+} 
 
 .heading {
-    padding: 50px;
     text-align: left;
     color: white;
+    margin-left: 340px;
+    margin-bottom: 40px;
 }
 
 .title {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Spectral', serif;
     letter-spacing: -1.5px;
 }
 
 .details {
-    font-size: 32px;
+    font-size: 22px;
     font-family: 'Spectral', serif;
     letter-spacing: -1px;
 }

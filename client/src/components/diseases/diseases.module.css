@@ -3,18 +3,19 @@
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: #87ceeb;
-    min-height: 70vh;
+    background-color: white;
+    min-height: 60vh;
 }
 
 .heading {
-    font-family: Inter, sans-serif;
+    font-family: Inter;
+    color: black;
     font-size: 2.5rem;
     text-align: center;
     margin-top: 4rem;
-    margin-bottom: 4rem;
-    font-weight: bold;
+    margin-bottom: 5rem;
     max-width: 80%;
+    letter-spacing: -1.5px;
 }
 
 .sections {
@@ -25,35 +26,6 @@
     width: 100%;
     max-width: 1200px;
     flex-wrap: wrap;
-}
-
-.general, .surgery, .eyecare {
-    flex: 1;
-    min-width: 225px;
-    max-width: 275px;
-    border-radius: 20px;
-    padding: 2rem 1.5rem;
-    background-color: #eaf3fe;
-    display: flex;
-    flex-direction: column;
-}
-
-.cardHeader {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.cardHeader img {
-    height: 75px;
-    width: 75px;
-    margin-right: 1rem;
-}
-
-.generaltitle, .surgerytitle, .eyecaretitle {
-    font-family: Inter, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 600;
 }
 
 .list {

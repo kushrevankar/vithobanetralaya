@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./hero.module.css";
+import heroBg from "../../images/herobg.jpg";
 
 const Hero = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -14,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className={styles.background}>
+    <div className={styles.background} style={{ backgroundImage: `url(${heroBg})` }}>
       <div
         className={styles.container}
         style={{
