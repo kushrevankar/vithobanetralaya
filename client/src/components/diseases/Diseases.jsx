@@ -30,7 +30,7 @@ const Diseases = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>One Stop Solution for All Eye Diseases</h1>
-      <div className={styles.cardsContainer} style={{ display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
+      <div className={styles.cardsContainer} style={{ display: "flex", gap: "30px", justifyContent: "center", flexWrap: "wrap" }}>
         {categories.map((category, index) => (
           <Card key={index} sx={{ width: 400, height: 500, display: "flex", flexDirection: "column", transition: "transform 0.3s ease, box-shadow 0.3s ease", "&:hover": { transform: "scale(1.05)", boxShadow: "0px 6px 15px rgba(0, 0, 0, 0.2)" } }}>
             <CardMedia component="img" height="250" image={category.image} alt={category.title} />
