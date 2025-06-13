@@ -10,7 +10,7 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <div className={styles.item}>
             <MapPin />
-            <p>To be filled</p>
+            <p className={styles.address}>Vikas Nagar Hubli, Hubli - 580021 (Behind J R H P Petrolpump)</p>
           </div>
           <div className={styles.item}>
             <Phone />

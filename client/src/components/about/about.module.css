@@ -1,0 +1,99 @@
+.background {
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    height: 40vh;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-family: 'Inter', serif;
+    letter-spacing: -1.5px;
+    margin-left: 340px;
+    margin-bottom: 80px;
+}
+
+.descrips {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto; /* use auto instead of 70vh for long text */
+  padding: 60px 340px;
+}
+
+.description {
+    font-size: 1.3rem;
+    font-family: Inter;
+    line-height: 1.5;
+    color: #555;
+    text-align: justify;
+}
+
+.floatedImage {
+  float: right;
+  padding-top: 40px;
+  margin: 0 0 30px 40px;
+  height: 450px;
+  width: 450px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.reviews {
+    height: auto;
+    font-family: Inter;
+}
+
+.text {
+    padding-top: 45px;
+    margin-left: 340px;
+    margin-right: 340px;
+    padding-bottom: 45px;
+}
+
+.mission {
+    padding-top: 30px;
+    padding-left: 340px;
+    padding-right: 340px;
+    padding-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 245, 232);
+}
+
+.mission h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.point {
+  margin-bottom: 2.5rem;
+}
+
+.point h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.point p {
+  font-size: 1.3rem;
+  color: #555;
+  text-align: justify;
+}
