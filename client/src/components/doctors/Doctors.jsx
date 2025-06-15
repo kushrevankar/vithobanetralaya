@@ -24,7 +24,7 @@ const Doctors = () => {
                 eye care—all within a single-doctor setup. He chose this model intentionally: instead of outreach camps, he brings outreach into his clinic, keeping quality care within reach for the economically disadvantaged.
                 With empathy as his guiding principle, Dr. Revankar prides himself on honest, ethical, and reliable service—treating patients with respect, clear communication, and unwavering professionalism. 
                 This commitment doesn’t just show in his surgical skill but in the trust and gratitude reflected by those he treats. Though trained in ophthalmology, his true specialty is care—with every person 
-                who walks through the clinic getting the same level of compassion and expertise you’d expect from a much larger team
+                who walks through the clinic getting the same level of compassion and expertise you’d expect from a much larger team.
               </p>
             </div>
           </div>

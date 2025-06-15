@@ -10,11 +10,11 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <div className={styles.item}>
             <MapPin />
-            <p className={styles.address}>Vikas Nagar Hubli, Hubli - 580021 (Behind J R H P Petrolpump)</p>
+            <p className={styles.address}>Vikas Nagar, Hubli - 580021 (Behind JRHP Petrolpump)</p>
           </div>
           <div className={styles.item}>
             <Phone />
-            <p>To be filled</p>
+            <p>+7947123222</p>
           </div>
           <div className={styles.item}>
             <Mail />
@@ -27,8 +27,8 @@ const Footer = () => {
           <ul>
             <li><a href="/about">About Us</a></li>
             <li><a href="/doctors">Our Doctors</a></li>
-            <li><a href="/facilities">Facilities</a></li>
             <li><a href="/treatments">Treatments</a></li>
+            <li><a href="/contact">Contact Us</a></li>
           </ul>
         </div>
         
@@ -43,6 +43,7 @@ const Footer = () => {
       
       <div className={styles.copyright}>
         <p>&copy; 2024 Vithoba Netralaya Eye Hospital. All Rights Reserved.</p>
+        <p>Designed and Developed solely by @kushrevankar (GitHub)</p>
       </div>
     </footer>
   );
