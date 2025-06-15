@@ -1,0 +1,99 @@
+.background {
+    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    height: 40vh;
+}
+
+.heading {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-family: 'Inter', serif;
+    letter-spacing: -1.5px;
+    margin-left: 340px;
+    margin-bottom: 80px;
+}
+
+.info {
+    padding-top: 45px;
+    padding-left: 340px;
+    padding-right: 340px;
+    padding-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
+
+.info h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #111;
+}
+
+.iconinfo {
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.card {
+  text-align: center;
+  max-width: 280px;
+  color: #0f3557;
+}
+
+.card p {
+  font-size: 1.3rem;
+}
+
+.iconCircle {
+  background-color: #0057a3;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.bold {
+  font-weight: bold;
+  color: #0072a3;
+  margin: 0.2rem 0;
+}
+
+.subheading {
+  color: #f45700;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.mapContainer {
+  margin-top: 3rem;
+  width: 100%;
+  max-width: 1000px;
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+}
