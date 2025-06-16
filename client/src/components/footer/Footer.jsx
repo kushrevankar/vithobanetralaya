@@ -1,6 +1,7 @@
-import React from 'react';
-import { MapPin, Phone, Mail } from 'lucide-react';
-import styles from './footer.module.css';
+import React from "react";
+import { MapPin, Phone, Mail } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
+import styles from "./footer.module.css";
 
 const Footer = () => {
   return (
@@ -10,7 +11,9 @@ const Footer = () => {
           <h3>Contact Us</h3>
           <div className={styles.item}>
             <MapPin />
-            <p className={styles.address}>Vikas Nagar, Hubli - 580021 (Behind JRHP Petrolpump)</p>
+            <p className={styles.address}>
+              Vikas Nagar, Hubli - 580021 (Behind JRHP Petrolpump)
+            </p>
           </div>
           <div className={styles.item}>
             <Phone />
@@ -18,32 +21,59 @@ const Footer = () => {
           </div>
           <div className={styles.item}>
             <Mail />
-            <p>To be filled</p>
+            <p>vithobanetralaya@gmail.com</p>
           </div>
         </div>
-        
+
         <div className={styles.links}>
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/doctors">Our Doctors</a></li>
-            <li><a href="/treatments">Treatments</a></li>
-            <li><a href="/contact">Contact Us</a></li>
+            <li>
+              <a href="/about">About Us</a>
+            </li>
+            <li>
+              <a href="/doctors">Our Doctors</a>
+            </li>
+            <li>
+              <a href="/treatments">Treatments</a>
+            </li>
+            <li>
+              <a href="/contact">Contact Us</a>
+            </li>
           </ul>
         </div>
-        
+
         <div className={styles.emergency}>
           <h3>Emergency</h3>
-          <p>24/7 Emergency Services Available</p>
-          <div className={styles.hotline}>
-            Emergency Hotline: To be filled
-          </div>
+          <p>Emergency surgeries are performed as per availability.</p>
+          <div className={styles.hotline}>Emergency Hotline: +7947123222</div>
         </div>
       </div>
-      
+
       <div className={styles.copyright}>
-        <p>&copy; 2024 Vithoba Netralaya Eye Hospital. All Rights Reserved.</p>
-        <p>Designed and Developed solely by @kushrevankar (GitHub)</p>
+        <p>&copy; 2025 Vithoba Netralaya Eye Hospital. All Rights Reserved.</p>
+        <p>
+          Designed and developed solely by{" "}
+          <a
+            href="https://github.com/kushrevankar"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              textDecoration: "none",
+              color: "inherit",
+            }}
+          >
+            <FaGithub
+              size={18}
+              style={{
+                verticalAlign: "middle",
+                marginRight: "4px",
+                position: "relative",
+                top: "-1px",
+              }}
+            />kushrevankar
+          </a>
+        </p>
       </div>
     </footer>
   );

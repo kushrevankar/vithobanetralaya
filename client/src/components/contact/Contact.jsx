@@ -32,7 +32,7 @@ const Contact = () => {
               <Mail color="white" size={48} />
             </div>
             <p>Please mail us on</p>
-            <p className={styles.bold}>PLACEHOLDER</p>
+            <p className={styles.bold}>vithobanetralaya@gmail.com</p>
             <p>to get support.</p>
           </div>
 
