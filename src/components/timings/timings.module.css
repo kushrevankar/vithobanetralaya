@@ -50,14 +50,19 @@
 .button {
     flex-direction: column;
     align-items: center;
-    height: 50px;
-    width: 160px;
+    height: 60px;
+    width: 180px;
     font-size: 1rem;
-    color: black;
-    background-color: transparent;
-    border-radius: 25px;
+    color: white;
+    background-color: #005bd3;
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-family: Inter;
     padding: 10px;
+    border: #005bd3;
+}
+
+.button:hover {
+    background-color: #0056b3;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './herobel.module.css'
 import lenseye from '../../images/lenseye.jpeg'
+import { Link } from "react-router-dom";
 
 const Herobel = () => {
   return (
@@ -12,9 +13,9 @@ const Herobel = () => {
                 Committed to quality care, it provides affordable services for all. 
                 The hospital’s ophthalmologists are available year-round to serve patients.
             </div>
-            <div className={styles.button}>
+            <Link to="/about" className={styles.button}>
                 <button type="button" className={styles.click}>Read More</button>
-            </div>
+            </Link>
         </div>
         <div className={styles.image}>
             <img src = {lenseye} alt="machinery"/>

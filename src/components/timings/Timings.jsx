@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './timings.module.css'
 import Clock from '../../images/clock.png'
+import { Link } from "react-router-dom";
 
 const Timings = () => {
   return (
@@ -15,9 +16,9 @@ const Timings = () => {
         <div className={styles.timings}>
             Monday to Saturday - 09:30<sup>AM</sup> — 02:00<sup>PM</sup>   05:30<sup>PM</sup> — 08:00<sup>PM</sup>
         </div>
-        <div className={styles.doctors}>
+        <Link to="/doctors" className={styles.doctors}>
             <button className={styles.button}>Meet Our Doctors</button>
-        </div>
+        </Link>
     </div>
   )
 }

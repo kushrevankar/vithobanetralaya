@@ -17,6 +17,8 @@
     position: absolute;
     margin-left: 340px;
     font-size: 25px;
+    text-decoration: none;
+    color: black;
 }
 
 .links {
@@ -53,3 +55,8 @@
     font-family: Inter, sans-serif;
     cursor: pointer;
 }
+
+.link.cta:hover {
+    background-color: #0056b3;
+}
+

@@ -12,7 +12,7 @@ const Navbar = () => {
     <div
       className={`${styles.container} ${isHomePage ? styles.transparent : ""}`}
     >
-      <div className={styles.logotext}>Vithoba Netralaya</div>
+      <Link to="/" className={styles.logotext}>Vithoba Netralaya</Link>
       <div className={styles.links}>
         <Link to="/about" className={styles.link}>
           About
