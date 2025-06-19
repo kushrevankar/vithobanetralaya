@@ -33,7 +33,7 @@ const Doctors = () => {
               <h1 style={{ color: "black", paddingBottom: 15 }}>
                 Testimonials
               </h1>
-              <p style={{ color: "#555", fontSize: 30 }}>
+              <p style={{ color: "#555", fontSize: 26 }}>
                 "The eye specialist Dr. Anant highly skilled and kind.. He gently
                 listened to my eye condition that has been troubling me for a while.
                 I am of the opinion his core strength is his skill and empathy."

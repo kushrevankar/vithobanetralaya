@@ -37,3 +37,35 @@
     font-family: 'Spectral', serif;
     letter-spacing: -1px;
 }
+
+@media (max-width: 768px) {
+  .background {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: auto;
+    padding: 10px;
+  }
+
+  .heading {
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .details {
+    font-size: 16px;
+  }
+}

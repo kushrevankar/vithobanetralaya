@@ -60,3 +60,34 @@
     background-color: #0056b3;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .logotext {
+    position: static;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .links {
+    display: none; /* hide all nav links */
+  }
+
+  .button {
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .link.cta {
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+  }
+}
