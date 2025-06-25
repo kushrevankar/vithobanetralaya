@@ -7,7 +7,7 @@ import CardContent from "@mui/joy/CardContent";
 import CardOverflow from "@mui/joy/CardOverflow";
 import Typography from "@mui/joy/Typography";
 import eyeExam from "../../images/eyeexam.jpg";
-import lasik from "../../images/lasik.webp";
+import lasik from "../../images/lasik.jpg";
 import cataract from "../../images/cataract.jpg";
 import refractive from "../../images/refractive.jpg";
 import dryEye from "../../images/dryeye.webp";

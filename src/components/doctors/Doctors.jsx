@@ -23,7 +23,7 @@ const Doctors = () => {
           </div>
           <div className={styles.imageContainer}>
             <img src={devadas} alt="dr. madhukar devadas" />
-            <p><b>Dr. Madhukar Devadas</b><br></br>MBBS, DOMS<br></br>Comprehensive Opthalmologist</p>
+            <p><b>Dr. Madhukar Devadas</b><br></br>MBBS, DOMS<br></br>Comprehensive Ophthalmologist</p>
           </div>
           <div className={styles.imageContainer}>
             <img src={atal} alt="dr. atal revankar" />

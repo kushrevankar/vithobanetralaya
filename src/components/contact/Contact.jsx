@@ -21,12 +21,11 @@ const Contact = () => {
             <div className={styles.iconCircle}>
               <Phone color="white" size={48} />
             </div>
-            <p>Please call on</p>
+            <p>Please call/WhatsApp us on</p>
             <p className={styles.bold}>94489 23336</p>
             <p>to get support.</p>
           </div>
 
-          {/* Email */}
           <div className={styles.card}>
             <div className={styles.iconCircle}>
               <Mail color="white" size={48} />
@@ -36,7 +35,6 @@ const Contact = () => {
             <p>to get support.</p>
           </div>
 
-          {/* Address */}
           <div className={styles.card}>
             <div className={styles.iconCircle}>
               <MapPin color="white" size={48} />
