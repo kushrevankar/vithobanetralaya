@@ -105,3 +105,39 @@
     height: 50px;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .container {
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 2rem;
+    padding: 0.75rem;
+  }
+
+  .heading img {
+    height: 26px;
+    width: 26px;
+    padding-right: 16px;
+  }
+
+  .desc {
+    font-size: 1.1rem;
+    max-width: 80%;
+  }
+
+  .timings {
+    font-size: 1.1rem;
+    padding: 0.75rem;
+  }
+
+  .button {
+    width: 100%;
+    max-width: 250px;
+    font-size: 1rem;
+    height: 55px;
+  }
+}

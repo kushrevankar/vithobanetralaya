@@ -105,3 +105,45 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .image img {
+    width: 60%;
+    height: auto;
+    margin: 0 auto 2rem;
+    border-radius: 20px;
+  }
+
+  .heading {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    gap: 1.2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .details {
+    font-size: 1.1rem;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .click {
+    width: 100%;
+    max-width: 240px;
+    font-size: 1.1rem;
+  }
+}

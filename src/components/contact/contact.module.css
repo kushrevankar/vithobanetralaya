@@ -164,3 +164,70 @@
     padding-bottom: 60px;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .background {
+    min-height: 35vh;
+    justify-content: center;
+    padding: 2rem;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    color: white;
+    padding: 2rem;
+  }
+
+  .heading {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 0 2rem 2rem;
+    margin-bottom: 40px;
+  }
+
+  .info {
+    padding: 40px 60px;
+  }
+
+  .info h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .iconinfo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem;
+  }
+
+  .card {
+    max-width: 220px;
+  }
+
+  .card p {
+    font-size: 1.1rem;
+  }
+
+  .iconCircle {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 30px;
+  }
+
+  .subheading {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .mapContainer {
+    height: 400px;
+    width: 95%;
+    padding-bottom: 80px;
+  }
+}

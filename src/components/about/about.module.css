@@ -163,3 +163,68 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .background {
+    min-height: 35vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .container {
+    height: auto;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .heading {
+    margin-left: 0;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .descrips {
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  .floatedImage {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    float: none;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .text,
+  .mission {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .mission h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .point h3 {
+    font-size: 1.3rem;
+  }
+
+  .point p {
+    font-size: 1.1rem;
+  }
+}
