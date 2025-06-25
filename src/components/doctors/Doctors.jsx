@@ -27,7 +27,7 @@ const Doctors = () => {
           </div>
           <div className={styles.imageContainer}>
             <img src={atal} alt="dr. atal revankar" />
-            <p><b>Dr. Atal Revankar</b><br></br>MBBS, MS<br></br>(fellowship in vitreoretinal surgery)</p>
+            <p><b>Dr. Atal Revankar</b><br></br>MBBS, MS<br></br>(fellow in vitreoretinal surgery)</p>
           </div>
         </div>
       <div className={styles.descrips}>
