@@ -22,7 +22,7 @@ const Diseases = () => {
     },
     {
       title: "Eye Care",
-      diseases: ["General Eye Exam", "LASIK", "MISC", "Glaucoma Surgery", "Oculoplasty", "Ocular Prosthesis"],
+      diseases: ["General Eye Exam", "MISC", "Glaucoma Surgery", "Oculoplasty", "Ocular Prosthesis"],
       image: Eyecare,
     },
   ];

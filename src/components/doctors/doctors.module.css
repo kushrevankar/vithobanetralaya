@@ -32,7 +32,7 @@
   justify-content: space-between;
   align-items: flex-start;
   height: auto;
-  padding: 60px 340px;
+  padding: 30px 340px;
 }
 
 .description {
@@ -43,21 +43,45 @@
     text-align: justify;
 }
 
-.floatedImage {
-  float: right;
-  margin: 40px 0 30px 40px;
-  height: 450px;
-  width: 450px;
-  border-radius: 20%;
-  object-fit: cover;
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 340px;
+  margin-top: 20px;
 }
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.imageContainer img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20%;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.imageContainer p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #444;
+  text-align: center;
+  font-family: Inter;
+}
+
 .reviews {
     height: auto;
     font-family: Inter;
 }
 
 .text {
-    padding-top: 45px;
+    padding-top: 30px;
     margin-left: 340px;
     margin-right: 340px;
     padding-bottom: 45px;
@@ -103,13 +127,19 @@
     padding: 0 1rem;
   }
 
-  .floatedImage {
-    float: none;
-    margin: 20px auto;
-    width: 90%;
-    height: auto;
-    display: block;
-    border-radius: 16px;
+  .images {
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  .imageContainer img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .imageContainer p {
+    font-size: 1.1rem;
   }
 
   .text {

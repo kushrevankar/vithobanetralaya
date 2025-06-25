@@ -25,7 +25,7 @@ const Hero = () => {
         <div className={styles.heading}>
           <div className={styles.title}>Get a crystal clear vision.</div>
           <div className={styles.details}>
-            See the world in a whole new light with expert eye care.
+            See the world in a whole new light with expert personalized eye care.
           </div>
         </div>
       </div>

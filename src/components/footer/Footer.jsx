@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className={styles.item}>
             <Phone />
-            <p>+7947123222</p>
+            <p>9448923336</p>
           </div>
           <div className={styles.item}>
             <Mail />
@@ -46,7 +46,7 @@ const Footer = () => {
         <div className={styles.emergency}>
           <h3>Emergency</h3>
           <p>Emergency surgeries are performed as per availability.</p>
-          <div className={styles.hotline}>Emergency Hotline: +7947123222</div>
+          <div className={styles.hotline}>Emergency Hotline: 08364253595</div>
         </div>
       </div>
 

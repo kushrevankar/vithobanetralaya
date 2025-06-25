@@ -22,7 +22,7 @@ const Contact = () => {
               <Phone color="white" size={48} />
             </div>
             <p>Please call on</p>
-            <p className={styles.bold}>+7947123222</p>
+            <p className={styles.bold}>94489 23336</p>
             <p>to get support.</p>
           </div>
 
@@ -50,7 +50,7 @@ const Contact = () => {
       <div className={styles.mapContainer}>
         <iframe
           title="Vithoba Memorial Hospital Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4351.4295870241!2d75.12761418590313!3d15.350037071856624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d73ffbadb60b%3A0xf2cac68af64e015e!2sVithoba%20Memorial%20Hospital%20%26%20Vithoba%20Netralaya!5e0!3m2!1sen!2sin!4v1749970653561!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d961.8718840977733!2d75.1296897284935!3d15.350060292336124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d722f343d531%3A0xccbd6c6416464495!2sVithoba%20Eye%20Hospital!5e0!3m2!1sen!2sin!4v1750601910195!5m2!1sen!2sin"
           width="100%"
           height="100%"
           style={{ border: 0 }}

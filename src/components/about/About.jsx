@@ -19,33 +19,33 @@ const About = () => {
           <img src={extra} alt="machinery" className={styles.floatedImage} />
           <h1 style={{ color: "black" }}>About Us</h1>
           <p>
-            Vithoba Netralaya Eye Clinic is a trusted place for people dealing
+            Vithoba Netralaya Eye Hospital is a trusted place for people dealing
             with all kinds of eye problems. It’s run by Dr. Anant Revankar, a
             skilled and compassionate ophthalmologist who has made it his
             mission to provide quality eye care that’s actually affordable. He’s
             available all year round and treats every patient with the same
             dedication—no rush, no compromise. Even though it’s a single-doctor
-            clinic, the range of services offered here rivals that of larger
+            Hospital, the range of services offered here rivals that of larger
             hospitals. What really makes the place stand out, though, is Dr.
             Revankar’s belief that good eye care shouldn’t depend on how much
             money someone has. So instead of holding outreach camps elsewhere,
             he keeps his doors open to everyone—offering treatment at rates low
             enough that even the underprivileged can access the best care
-            without hesitation. The clinic handles everything from common issues
-            like cataracts and glaucoma to more complex problems. Treatments
-            available include LASIK surgery, micro incision cataract surgery
-            (MICS), oculoplasty, vision rehab, tonometry, squint correction,
-            fundus fluorescein angiography, optical coherence tomography (OCT),
-            custom optical corrections, eyelid surgeries (entropion/ectropion,
-            ptosis), orthoptic exams, IOL implantation, and paediatric eye
-            surgeries. Though it’s not a huge hospital, the clinic is organized
-            into dedicated sections—like cataract/phaco, glaucoma, retina,
-            squint and oculoplastics, and refractive/LASIK care—so patients get
-            focused, specialized treatment. And Dr. Revankar is involved in
-            every step of the way, so nothing falls through the cracks. For Dr.
-            Anant Revankar, this isn’t just a job. It’s a lifelong commitment—to
-            serve, to heal, and to make sure no one is left behind just because
-            they can’t afford to see clearly.
+            without hesitation. The hospital handles everything from common
+            issues like cataracts and glaucoma to more complex problems.
+            Treatments available include micro incision cataract surgery (MICS),
+            oculoplasty, vision rehab, tonometry, squint correction, fundus
+            fluorescein angiography, optical coherence tomography (OCT), custom
+            optical corrections, eyelid surgeries (entropion/ectropion, ptosis),
+            orthoptic exams, IOL implantation, aesthetic eye surgeries
+            (including removal of eyebags, drooping of eyes) and paediatric eye
+            surgeries. The hospital is organized into dedicated sections—like
+            cataract/phaco, glaucoma, retina, squint and oculoplastics, and
+            refractive care—so patients get focused, specialized treatment. And
+            Dr. Revankar is involved in every step of the way, so nothing falls
+            through the cracks. For Dr. Anant Revankar, this isn’t just a job.
+            It’s a lifelong commitment—to serve, to heal, and to make sure no
+            one is left behind just because they can’t afford to see clearly.
           </p>
         </div>
       </div>
@@ -58,10 +58,10 @@ const About = () => {
             environment
           </h3>
           <p>
-            Vithoba Netralaya Eye Clinic is committed to providing exceptional
+            Vithoba Netralaya Eye Hospital is committed to providing exceptional
             ophthalmic care within a setting that prioritizes patient comfort
             and emotional well-being. Under the guidance of Dr. Anant Revankar,
-            the clinic fosters an atmosphere of empathy, professionalism, and
+            the Hospital fosters an atmosphere of empathy, professionalism, and
             individualized attention—ensuring that every patient feels
             respected, understood, and cared for.
           </p>
@@ -72,11 +72,11 @@ const About = () => {
             To uphold honesty, ethics, and reliability in every aspect of care
           </h3>
           <p>
-            Integrity stands at the core of the clinic’s practice. Dr. Revankar
-            is dedicated to offering services that are transparent, ethical, and
-            dependable. Patients can rely on the clinic not only for medical
-            expertise, but also for the reassurance that their well-being will
-            always be prioritized with fairness and honesty.
+            Integrity stands at the core of the Hospital’s practice. Dr.
+            Revankar is dedicated to offering services that are transparent,
+            ethical, and dependable. Patients can rely on the Hospital not only
+            for medical expertise, but also for the reassurance that their
+            well-being will always be prioritized with fairness and honesty.
           </p>
         </div>
 
@@ -87,7 +87,7 @@ const About = () => {
           </h3>
           <p>
             Vithoba Netralaya aims to create a model of eye care that is both
-            excellent and equitable. The clinic ensures that high-quality
+            excellent and equitable. The Hospital ensures that high-quality
             treatment is accessible to everyone, regardless of financial
             background, eliminating barriers to care and extending its services
             to those who need it most— without compromise.

@@ -14,7 +14,7 @@ const Appointment = () => {
         </div>
         <div className={styles.form}>
           <iframe
-            src="https://tally.so/r/mVXPbj?transparentBackground=1"
+            src="https://tally.so/r/3xEeDE?transparentBackground=1"
             loading="lazy"
             height="500"
             frameBorder="0"

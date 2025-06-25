@@ -1,87 +1,100 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    transition: background-color 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .transparent {
-    background-color: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+}
+
+.logo {
+  margin-left: 340px;
+  height: 60px;
 }
 
 .logotext {
-    font-family: 'Spectral', sans-serif;
-    letter-spacing: -1px;
-    position: absolute;
-    margin-left: 340px;
-    font-size: 25px;
-    text-decoration: none;
-    color: black;
+  font-family: 'Spectral', sans-serif;
+  letter-spacing: -1px;
+  position: absolute;
+  margin-left: 440px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
 }
 
 .links {
-    display: flex;
-    gap: 20px;
-    flex: 1;
-    font-size: 18px;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 360px;
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  font-size: 18px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 360px;
 }
 
 .link {
-    color: black;
-    text-decoration: none;
-    font-family: Inter, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
 }
 
 .button {
-    display: flex;
-    text-align: center;
-    justify-content: flex-end;
-    cursor: pointer;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+  cursor: pointer;
 }
 
 .link.cta {
-    color: white;
-    background-color: #005bd3;
-    border: none;
-    font-size: 15px;
-    border-radius: 22.5px;
-    height: 45px;
-    width: 180px;
-    font-family: Inter, sans-serif;
-    cursor: pointer;
+  color: white;
+  background-color: #005bd3;
+  border: none;
+  font-size: 15px;
+  border-radius: 22.5px;
+  height: 45px;
+  width: 180px;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
 }
 
 .link.cta:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
+/* 👇 RESPONSIVE FIXES */
 @media (max-width: 768px) {
   .container {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
     padding: 10px 20px;
+    gap: 10px;
+  }
+
+  .logo {
+    margin: 0;
+    height: 50px;
   }
 
   .logotext {
     position: static;
     margin: 0;
     font-size: 20px;
+    text-align: center;
   }
 
   .links {
-    display: none; /* hide all nav links */
+    display: none;
   }
 
   .button {
-    justify-content: flex-end;
-    width: auto;
+    justify-content: center;
+    width: 100%;
   }
 
   .link.cta {
