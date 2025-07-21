@@ -22,7 +22,7 @@ const Contact = () => {
               <Phone color="white" size={48} />
             </div>
             <p>Please call/WhatsApp us on</p>
-            <p className={styles.bold}>94489 23336</p>
+            <a href="tel:+919448923336" className={styles.bold}>94489 23336</a>
             <p>to get support.</p>
           </div>
 
@@ -31,7 +31,7 @@ const Contact = () => {
               <Mail color="white" size={48} />
             </div>
             <p>Please mail us on</p>
-            <p className={styles.bold}>vithobanetralaya@gmail.com</p>
+            <a href="mailto:vithobanetralaya@gmail.com" className={styles.bold}>vithobanetralaya@gmail.com</a>
             <p>to get support.</p>
           </div>
 
