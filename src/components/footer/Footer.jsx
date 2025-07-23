@@ -17,11 +17,21 @@ const Footer = () => {
           </div>
           <div className={styles.item}>
             <Phone />
-            <p>9448923336</p>
+            <a
+              href="tel:+919448923336"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              9448923336
+            </a>
           </div>
           <div className={styles.item}>
             <Mail />
-            <p>vithobanetralaya@gmail.com</p>
+            <a
+              href="mailto:vithobanetralaya@gmail.com"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              vithobanetralaya@gmail.com
+            </a>
           </div>
         </div>
 
@@ -46,7 +56,7 @@ const Footer = () => {
         <div className={styles.emergency}>
           <h3>Emergency</h3>
           <p>Emergency surgeries are performed as per availability.</p>
-          <div className={styles.hotline}>Emergency Hotline: 08364253595</div>
+          <a href="tel:08364253595" className={styles.hotline}>Emergency Hotline: 08364253595</a>
         </div>
       </div>
 
@@ -71,7 +81,8 @@ const Footer = () => {
                 position: "relative",
                 top: "-1px",
               }}
-            />kushrevankar
+            />
+            kushrevankar
           </a>
         </p>
       </div>
